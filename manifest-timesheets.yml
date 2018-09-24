@@ -2,10 +2,10 @@ applications:
 - name: tracker-timesheets
   path: ./applications/timesheets-server/build/libs/timesheets-server.jar
   routes:
-  - route: timesheets-pal-southgate.apps.chicken.pal.cfapps.io
+  - route: timesheets-pal-southgate.cfapps.io
   memory: 1G
   instances: 1
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-southgate.apps.chicken.pal.cfapps.io
+    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-southgate.cfapps.io
   services:
   - tracker-timesheets-database
