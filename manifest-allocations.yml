@@ -5,7 +5,7 @@ applications:
   - route: allocations-pal-southgate.cfapps.io
   memory: 1G
   instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-southgate.cfapps.io
   services:
   - tracker-allocations-database
+  - tracker-service-registry
+

@@ -20,6 +20,11 @@ buildscript {
 
 apply plugin: DependenciesGraphPlugin
 
+ext {
+    springCloudDependenciesVersion = "Edgware.RELEASE"
+    springCloudServicesVersion = "1.6.4.RELEASE"
+}
+
 subprojects {
     group "io.pivotal.pal.tracker"
 
