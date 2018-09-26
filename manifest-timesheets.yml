@@ -9,4 +9,4 @@ applications:
   - tracker-circuit-breaker-dashboard
   - tracker-timesheets-database
   - tracker-service-registry
-
+  - tracker-config-server
